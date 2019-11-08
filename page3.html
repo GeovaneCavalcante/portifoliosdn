@@ -120,14 +120,14 @@
 										controladores para o paradigma de SDN, cada um deles tem suas características, entre elas a
 										linguagem de programação usada no seu
 										desenvolvimento, que influenciará diretamente no desenvolvimento da sua aplicação na
-										rede.(Costa, 2013, p. 22)
+										rede.
 									</p>
 								
 									<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
 										POX é um controlador SDN que foi desenvolvido com finalidades de pesquisa e
 										ensino, o mesmo é desenvolvido em Python e vem com o objetivo de substituir o controlador
 										NOX. Ele tem uma plataforma simples para prototipagem e desenvolvimento de software de
-										controle de dados, além disso, tem uma interface de pilha bem robusta.  (Noxrepo, 2015).
+										controle de dados, além disso, tem uma interface de pilha bem robusta. 
 										A substituição do NOX deve ser feita em aplicações na quais o desempenho não seja o fator
 										principal, pois o NOX é desenvolvido em C++ e tem uma performance bem superior.
 									</p>
@@ -137,7 +137,7 @@
 										componente. Todo componente que é inicializado junto com POX, deve ser especificado ao
 										executar o controlador na linha de comando. O mesmo já fornece componentes básicos,
 										alguns são para teste, outros exemplos de como usar ou agregar recursos ao controlador
-										(Noxrepo, 2015).
+										.
 									</p>
 									<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
 										Alguns componentes, pode-se destacar-ses como o forwarding.l2_pairs esse
@@ -146,8 +146,7 @@
 										corretamente. Ao contrário do l2_learning, o l2_pairs instala regras baseadas apenas em
 										endereços MAC. O componente openflow.discovery, envia mensagens LLDP especialmente
 										criadas a partir de switches OpenFlow para que ele possa descobrir a topologia da rede. Ele
-										gera eventos (que você pode ouvir) quando os links aumentam ou diminuem  (Montezelo,
-										2017, p. 22).
+										gera eventos (que você pode ouvir) quando os links aumentam ou diminuem.
 									</p>
 									<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
 										O POX tem um objeto chamado “core”, que serve como um ponto central para grande
@@ -156,14 +155,14 @@
 										objetivos principais do objeto principal é fornecer um encontro entre os componentes. Muitas
 										vezes, em vez de usar instruções de importação para que um componente importe outro
 										componente para que eles possam interagir, os componentes se &quot;registrarão&quot; no objeto
-										principal e outros componentes consultarão o objeto principal.  (Noxrepo, 2015)
+										principal e outros componentes consultarão o objeto principal.  
 									</p>
 									<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
 										Uma grande vantagem dessa abordagem é que as dependências entre os componentes
 										não são codificadas, e diferentes componentes que expõem a mesma interface podem ser
 										facilmente trocados. Pensado de outra maneira, isso
 										fornece uma alternativa ao namespace de módulo normal do Python, que é um pouco mais
-										fácil de organizar  (Noxrepo, 2015).
+										fácil de organizar.
 									</p>
 								
 									<br>
