@@ -140,48 +140,19 @@
 					<div class="row">
 						<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
-									Com o passar dos anos houve uma grande expansão nas redes de computadores,
-								contudo, essa expansão não foi acompanhada da evolução da POX Controlador dessas redes, mesmo
-								com algumas soluções pontuais, a POX Controlador atual não é capaz de atender totalmente as
-								novas aplicações que estão sendo demandadas.
+									Com o passar dos anos houve uma grande expansão nas redes de computadores, contudo, essa expansão não foi acompanhada da evolução da arquitetura dessas redes, mesmo com algumas soluções pontuais , a arquitetura atual não é capaz de atender totalmente as novas aplicações que estão sendo demandadas.
 							</p>
 							<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
-									Hoje as redes de computadores têm um papel crítico na infraestrutura da sociedade
-								moderna, mas encontra-se &quot;ossificada&quot;, com sérias dificuldades para evoluir. Hoje sabe-se
-								que a rede tem seu núcleo simples e toda sua inteligência se encontra nas bordas, onde grande
-								parte dos componentes são compostos por hardwares e softwares proprietários, tecnologias
-								fechadas e pouco flexíveis, o que contribui para a manutenção desse engessamento da rede,
-								inviabilizando a implementação de  novas soluções.
+									Hoje as redes de computadores têm um papel crítico na infraestrutura da sociedade moderna, mas encontra-se "ossificada", com sérias dificuldades para evoluir. Hoje sabe-se que a rede tem seu núcleo simples e toda sua inteligência se encontra nas bordas, onde grande parte dos componentes são compostos por hardwares e softwares proprietários, tecnologias fechadas e pouco flexíveis, o que contribui para a manutenção desse engessamento da rede, inviabilizando a implementação de  novas soluções.
 							</p>
 							<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
-								Outro fato que afeta a evolução  das redes de computadores são os possíveis
-								problemas causados por testes de novas tecnologias no ambiente de produção. Neste cenário, 
-								problemas de testes podem ocorrer, criando situações que afetam a segurança da rede, como
-								indisponibilidade e falta de integridade, o que pode levar a falta de confiança nos serviços e
-								aplicações ofertados na infraestrutura da rede. Para os administradores de rede tal problema
-								não pode acontecer ou deve ser evitado, correr o risco de deixar a rede off line mesmo que
-								seja por alguns minutos, não é uma opção aceitável.
+								Outro fato que afeta a evolução  das redes de computadores são os possíveis problemas causados por testes de novas tecnologias no ambiente de produção. Neste cenário,  problemas de testes podem ocorrer, criando situações que afetam a segurança da rede, como indisponibilidade e falta de integridade, o que pode levar a falta de confiança nos serviços e aplicações ofertados na infraestrutura da rede. Para os administradores de rede tal problema não pode acontecer ou deve ser evitado, correr o risco de deixar a rede off line mesmo que seja por alguns minutos, não é uma opção aceitável.
 							</p>
 							<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
-								Dentre as novas POX Controladors propostas para resolver esses problemas de infraestrutura de
-								redes, o paradigma SDN é uma das principais. “As Redes Definidas por Software (Software
-								Defined Networks, (SDN)) constituem um novo paradigma para o desenvolvimento das redes
-								de computadores. As redes SDN apresentam novas perspectiva, como por exemplo, o
-								ambiente de controle lógico da rede, onde novas aplicações de rede podem ser desenvolvidas
-								de forma simples e livre dos limites da POX Controlador atual.”.
+								Dentre as novas arquiteturas propostas para resolver esses problemas de infraestrutura de redes, o paradigma SDN é uma das principais. “As Redes Definidas por Software (Software Defined Networks, (SDN)) constituem um novo paradigma para o desenvolvimento das redes de computadores. As redes SDN apresentam novas perspectiva, como por exemplo, o ambiente de controle lógico da rede, onde novas aplicações de rede podem ser desenvolvidas de forma simples e livre dos limites da arquitetura atual.”
 							</p>
 							<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
-								SDN é um termo usado para referenciar uma POX Controlador
-								de rede programável, no qual pode ser observado a dissociação do plano de controle, que é
-								responsável por analisar protocolos e tomar decisões que construirão a tabela de fluxo,   do
-								plano de dados, que faz todo encaminhamento, comutação de pacotes e também seus devidos
-								repasses. Ao separar esses dois contextos, plano de controle e plano de dados, é possível
-								promover a extensão do plano de controle, torna-o programável,  e assim controlar e gerenciar
-								o objeto da rede, conforme na figura 1. Sua implementação pode ser
-								gradativa na rede, utilizando equipamentos já em produção mantendo a estabilidade
-								necessária para funcionamento, isso faz com que esse paradigma seja bem visto pelos
-								administradores de redes, pois não haverá necessidade de interromper seu funcionamento para
-								implementação.
+								SDN é um termo usado para referenciar uma arquitetura de rede programável, no qual pode ser observado a dissociação do plano de controle, que é responsável por analisar protocolos e tomar decisões que construirão a tabela de fluxo,   do plano de dados, que faz todo encaminhamento, comutação de pacotes e também seus devidos repasses. Ao separar esses dois contextos, plano de controle e plano de dados, é possível promover a extensão do plano de controle, torna-o programável,  e assim controlar e gerenciar o objeto da rede. (de Araújo, 2013, p. 22), conforme na figura 1. Sua implementação pode ser gradativa na rede, utilizando equipamentos já em produção mantendo a estabilidade necessária para funcionamento, isso faz com que esse paradigma seja bem visto pelos administradores de redes, pois não haverá necessidade de interromper seu funcionamento para implementação. 
 							</p>
 							<p style="text-align: center"><b >Figura 1</b></p>
 							<center>
@@ -189,26 +160,12 @@
 							</center>
 							<br>
 							<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
-								A comunicação entre plano de controle e plano de dados precisa ser feita através de
-								uma interface de comunicação. A necessidade da construção de APIS para estabelecer essa
-								comunicação poderia acarretar em criações de diversas interfaces de comunicação diferentes,
-								de acordo com fabricante, mesmo com a padronização poderia haver uma limitação nas ações
-								desempenhadas pelo plano de controle, ou até mesmo diminuir a ascensão da tecnologia por
-								conta de várias especificações diferentes. 
-								Com OpenFlow é possível programar toda comutação de pacotes através de um
-								componente externo, também podendo controlar todos pontos da rede a partir de um único
-								ponto. 
+								A comunicação entre plano de controle e plano de dados precisa ser feita através de uma interface de comunicação. A necessidade da construção de APIS para estabelecer essa comunicação poderia acarretar em criações de diversas interfaces de comunicação diferentes, de acordo com fabricante, mesmo com a padronização poderia haver uma limitação nas ações 
+desempenhadas pelo plano de controle, ou até mesmo diminuir a ascensão da tecnologia por conta de várias especificações diferentes.
+ 
 							</p>
 							<p class="fh5co-lead" style=" text-align: justify; font-size: 22px">
-								Esse protocolo foi padronizado na área de
-								pesquisa, e com base na sua especificação foram construídas várias ferramentas (Fernandes,
-								2014, p. 1021). Foi desenvolvido e proposto pela Universidade de Stanford para ser utilizado
-								em novas propostas de POX Controladors de rede. Ele oferece
-								uma interface de comunicação bastante flexível entre o plano de controle e o plano de dados,
-								encaminhando pacotes para Controlador SDN, que é a extensão do plano de controle. o
-								Controlador tem o papel de analisar todos pacotes enviado para ele e de acordo com análise
-								desses pacotes encaminhar novas regras para comutador, assim atualizando novas regras de
-								encaminhamentos para tabela de fluxo.
+							Com OpenFlow é possível programar toda comutação de pacotes através de um componente externo, também podendo controlar todos pontos da rede a partir de um único ponto. Esse protocolo foi padronizado na área de pesquisa, e com base na sua especificação foram construídas várias ferramentas. Foi desenvolvido e proposto pela Universidade de Stanford para ser utilizado em novas propostas de arquiteturas de rede. Ele oferece uma interface de comunicação bastante flexível entre o plano de controle e o plano de dados, encaminhando pacotes para Controlador SDN, que é a extensão do plano de controle. o Controlador tem o papel de analisar todos pacotes enviado para ele e de acordo com análise desses pacotes encaminhar novas regras para comutador, assim atualizando novas regras de encaminhamentos para tabela de fluxo
 							</p>
 							<p><a href="page1.html" class="btn btn-primary">Pŕoxima página</a></p>
 						</div>
